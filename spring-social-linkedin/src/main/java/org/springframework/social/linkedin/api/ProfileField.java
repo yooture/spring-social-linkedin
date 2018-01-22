@@ -29,7 +29,8 @@ public enum ProfileField {
 	INDUSTRY,
 	DISTANCE,
 	RELATION_TO_VIEWER,
-	CURRENT_SHARE,
+//	causes a 500 error on linkedin site when doing a call for full profile
+//	CURRENT_SHARE,
 	CONNECTIONS,
 	NUM_CONNECTIONS,
 	NUM_CONNECTIONS_CAPPED,
