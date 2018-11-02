@@ -33,7 +33,7 @@ pipeline {
 
 find . -name "spring-social-linkedin*jar"
 
-export PATH=$MVN_CMD_DIR:$PATH && mvn deploy:deploy-file -DgroupId=org.springframework.social \
+export PATH=$MVN_CMD_DIR:$PATH && mvn -f wagon-webdav-pom.xml deploy:deploy-file -DgroupId=org.springframework.social \
   -DartifactId=spring-social-linkedin \
   -Dversion=1.0.3-YOOTURE \
   -Dpackaging=jar \
