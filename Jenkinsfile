@@ -38,8 +38,8 @@ export PATH=$MVN_CMD_DIR:$PATH && mvn -f wagon-webdav-pom.xml deploy:deploy-file
   -Dversion=1.0.3-YOOTURE \
   -Dpackaging=jar \
   -Dfile=spring-social-linkedin/build/libs/spring-social-linkedin-1.0.3.BUILD-SNAPSHOT.jar \
-  -DrepositoryId=cloudbees-private-release-repository \
-  -Durl=dav:https://repository-yooture.forge.cloudbees.com/release
+  -DrepositoryId=yooture-private-release-repository \
+  -Durl=http://repo.yooture.net/repository/yooture-releases/
 
           """
         }
